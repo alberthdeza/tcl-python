@@ -1,0 +1,10 @@
+set cut_paste_input [stack 0]
+version 13.2 v9
+push $cut_paste_input
+Switch {
+ which {{"\[python nuke.executing()]"}}
+ name Switch1
+ selected true
+ xpos 417
+ ypos -598
+}

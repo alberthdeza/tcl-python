@@ -1,0 +1,2 @@
+in disable checkbox -   $gui
+			not nuke.executing()
